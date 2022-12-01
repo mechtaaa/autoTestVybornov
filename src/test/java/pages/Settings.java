@@ -14,6 +14,5 @@ public class Settings {
         browser = "chrome";
         Configuration.browserSize = "1920x1080";
         open("https://ya.ru/");
-        Configuration.holdBrowserOpen = true;
     }
 }

@@ -13,7 +13,7 @@ public class InitialMailPage {
     SelenideElement sendMail =  $(By.xpath("//button[@class='Button2 Button2_pin_circle-circle Button2_view_default Button2_size_l']"));
     public void writeMail(){
         buttonWrite.shouldBe(Condition.visible).click();
-        whomWriteMail.shouldBe(Condition.visible).sendKeys("MsSWIK@yandex.ru");
+        whomWriteMail.shouldBe(Condition.visible).sendKeys("dokuchaev_av@tkbbank.ru");
         writeTextMail.shouldBe(Condition.visible).sendKeys("Добрый день\n" +
                 "\n" +
                 "Простейший автотест готов\n" +
